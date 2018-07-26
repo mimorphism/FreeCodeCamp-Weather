@@ -1,0 +1,30 @@
+body{
+    background: url('background.jpg');
+    background-size: cover;
+}
+
+.weatherheader{
+    font-family: 'Monoton', cursive;
+    font-size: 48px;
+    color: #2fb8d6;
+    text-shadow: 4px 4px 4px #2fb8d6;
+
+}
+
+.bigTitle {
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 25px;
+    color: #2fb8d6;
+    background-color: rgba(236, 240, 241, 0.8);
+    position: absolute;
+    text-align:center;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    margin-left: -225px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
