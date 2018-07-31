@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var weatherApiUrl = "https://api.openweathermap.org/data/2.5/weather/";
-    var apiKey = "67c958317d3dd8a3dc6c676c740da801";
+    var apiKey = "";
     getLatLong();
 
     function getLatLong(){
